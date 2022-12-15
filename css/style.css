@@ -1,0 +1,124 @@
+body {
+  font-size: 100px;
+  margin: 3rem;
+}
+
+td {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid black;
+  border-radius: 10%;
+  padding: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+tr:nth-child(1) td:nth-child(1),
+tr:nth-child(2) td:nth-child(n + 14):nth-child(-n + 16),
+tr:nth-child(3) td:nth-child(n + 15):nth-child(-n + 16),
+tr:nth-child(4) td:nth-child(16) {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: yellow;
+}
+tr:nth-child(n + 2):nth-child(-n + 7) td:nth-child(1),
+tr:nth-child(7) td:nth-child(17) {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: purple;
+}
+tr:nth-child(n + 2):nth-child(-n + 7) td:nth-child(2),
+tr:nth-child(7) td:nth-child(18) {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: burlywood;
+}
+
+tr:nth-child(n + 4):nth-child(-n + 5) td:nth-child(n + 3):nth-child(-n + 12),
+tr:nth-child(n + 6):nth-child(-n + 7) td:nth-child(n + 4):nth-child(-n + 12) {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: green;
+}
+tr:nth-child(8) td:nth-child(n + 2):nth-child(-n + 15),
+tr:nth-child(6) td:nth-child(3) {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: lightskyblue;
+}
+
+tr:nth-child(9) td:nth-child(n + 2):nth-child(-n + 15),
+tr:nth-child(7) td:nth-child(3) {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: rgb(6, 117, 117);
+}
+tr:nth-child(n + 3):nth-child(-n + 7) td:nth-child(13),
+tr:nth-child(n + 5):nth-child(-n + 7) td:nth-child(14),
+tr:nth-child(6) td:nth-child(15) {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: pink;
+}
+
+tr:nth-child(n + 2):nth-child(-n + 6) td:nth-child(17),
+tr:nth-child(7) td:nth-child(15) {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: rgb(150, 119, 78);
+}
+
+tr:nth-child(2) td:nth-child(13),
+tr:nth-child(n + 3):nth-child(-n + 4) td:nth-child(14),
+tr:nth-child(n + 4):nth-child(-n + 5) td:nth-child(15),
+tr:nth-child(n + 5):nth-child(-n + 6) td:nth-child(16) {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: orange;
+}
+
+tr:nth-child(n + 1):nth-child(-n + 6) td:nth-child(18),
+tr:nth-child(7) td:nth-child(16) {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: violet;
+}
+
+tr:nth-child(1) td:nth-child(n + 2):nth-child(-n + 17),
+tr:nth-child(n + 2):nth-child(-n + 3) td:nth-child(n + 3):nth-child(-n + 12) {
+  border: none;
+}
+tr:nth-child(n + 8):nth-child(-n + 9) td:nth-child(1),
+tr:nth-child(n + 8):nth-child(-n + 9) td:nth-child(n + 16):nth-child(-n + 18) {
+  border: none;
+}
